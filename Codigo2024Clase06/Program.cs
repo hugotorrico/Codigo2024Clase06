@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Runtime.InteropServices;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 void EjemploListString()
 {
@@ -150,7 +151,7 @@ void ejemploFuncionIndexOf()
         int numero = int.Parse(Console.ReadLine());
         numeros.Add(numero);
     }
-
+    
     int numeroBuscar = 10;
     int indice = numeros.IndexOf(numeroBuscar);
 
@@ -180,6 +181,63 @@ void ejemploAddRange()
     paises.AddRange(paisesAmerica);
     paises.AddRange(paisesEuropa);
 }
+
+void ejemploPromedio()
+{
+    //Hacer un programa que calcula la suma de los primeros N naturales!!!
+
+    List<float> calificaciones = new List<float>();
+
+    calificaciones.Add(15);
+    calificaciones.Add(17);
+    calificaciones.Add(16);
+    calificaciones.Add(18);
+    calificaciones.Add(20);
+    calificaciones.Add(12);
+    calificaciones.Add(13);
+    calificaciones.Add(14);
+
+
+    float promedio2 = calificaciones.Average();
+    Console.WriteLine(promedio2);
+}
+
+
+//Lista mixta de nombres y edades (List<string> y List<int>)
+//Crea un programa que almacene una lista de nombres y una lista de edades de varias personas.
+//Luego, muestra los nombres y edades en formato de lista.
+
+
+List<string> nombres = new List<string>();
+List<int> edades = new List<int>();
+List<string> ciudades = new List<string>();
+
+
+//Primera persona
+nombres.Add("Hugo");
+edades.Add(36);
+ciudades.Add("Lima");
+
+//Segunda persona
+nombres.Add("Reyna");
+edades.Add(8);
+ciudades.Add("Ica");
+
+//Tercera persona
+nombres.Add("Dérek");
+edades.Add(6);
+ciudades.Add("Nasca");
+//foreach ??  nombres o a edades
+
+for (int i = 0; i < nombres.Count; i++)
+{
+    Console.WriteLine("============");
+    Console.WriteLine(nombres[i]);
+    Console.WriteLine(edades[i]);
+    Console.WriteLine(ciudades[i]);
+
+}
+
 
 
 

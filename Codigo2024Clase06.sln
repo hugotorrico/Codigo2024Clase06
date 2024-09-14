@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codigo2024Clase06", "Codigo2024Clase06\Codigo2024Clase06.csproj", "{877FA0E1-9A07-4B36-A991-036780AA00DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructuras", "Estructuras\Estructuras.csproj", "{EF1DD1C6-A8D9-4ECA-8F53-D6FE2B99275D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{877FA0E1-9A07-4B36-A991-036780AA00DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{877FA0E1-9A07-4B36-A991-036780AA00DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{877FA0E1-9A07-4B36-A991-036780AA00DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1DD1C6-A8D9-4ECA-8F53-D6FE2B99275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1DD1C6-A8D9-4ECA-8F53-D6FE2B99275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1DD1C6-A8D9-4ECA-8F53-D6FE2B99275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1DD1C6-A8D9-4ECA-8F53-D6FE2B99275D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

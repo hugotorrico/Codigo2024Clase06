@@ -56,7 +56,7 @@ edades.Add(18);
 
 //edades.Sort();
 //edades.Remove(30);
-
+//Console.WriteLine( edades.Contains(30));
 
 
 ////business logic
